@@ -1,0 +1,587 @@
+     39	
+      7	 " 
+      2	 ">
+      5	 , 
+      1	 . 
+     37	 .>
+      1	 : 
+      2	 ; 
+      1	 >
+      1	 ? 
+      1	 ac
+      1	 al
+      2	 an
+      2	 ar
+      8	 au
+      2	 ba
+      1	 be
+      3	 bl
+      1	 bo
+      5	 br
+      1	 bu
+      2	 bä
+      5	 da
+     14	 de
+      7	 di
+      1	 do
+      1	 dr
+      1	 du
+      6	 ei
+      6	 er
+      5	 es
+      2	 fa
+      1	 fe
+      2	 fl
+      1	 fr
+      1	 fu
+      1	 fü
+      1	 ga
+      1	 ge
+      4	 gi
+      2	 gl
+      1	 go
+      1	 gr
+      3	 ha
+      3	 he
+      2	 hi
+      1	 hö
+      2	 ic
+      1	 ih
+      1	 im
+      6	 in
+      4	 ka
+      1	 ke
+      2	 ki
+      1	 kl
+      2	 kn
+      4	 la
+      1	 le
+      4	 li
+      2	 lä
+      4	 ma
+      1	 me
+      1	 mi
+      4	 na
+      2	 ne
+      5	 ni
+      3	 no
+      1	 nu
+      1	 od
+      1	 pi
+      1	 ra
+      2	 re
+      5	 sa
+      7	 sc
+      2	 se
+      6	 si
+      1	 so
+      7	 st
+      1	 ta
+      1	 tr
+      3	 un
+      1	 ve
+      1	 vo
+     13	 wa
+      3	 we
+      3	 wo
+      3	 zu
+      1	 üb
+      2	" ,
+      1	" e
+      1	" f
+      1	" w
+      1	, d
+      2	, e
+      1	, f
+      2	, h
+      4	, s
+      1	, w
+     37	.>
+      1	; "
+      1	; e
+      1	; n
+      1	; s
+      1	; u
+      8	< "
+      2	<ab
+      2	<al
+      5	<au
+      1	<be
+      2	<bl
+     10	<da
+     13	<de
+      7	<di
+      2	<do
+      1	<du
+      1	<ei
+     14	<er
+      4	<es
+      1	<fe
+      1	<im
+      6	<in
+      1	<na
+      1	<sc
+      1	<se
+      7	<si
+      1	<so
+      1	<sp
+      1	<tr
+      1	<un
+      2	<vo
+      1	<we
+      1	<wi
+      1	<Üb
+     22	>
+      1	abz
+      1	ach
+      1	ag 
+      1	age
+      4	agt
+      1	ah 
+      1	ahl
+      3	ald
+      1	am 
+      1	an 
+      4	and
+      1	ang
+     15	ann
+      1	app
+      5	ar 
+      2	are
+      1	art
+      1	arz
+      3	as 
+      1	ase
+      1	asp
+      1	ass
+      1	ast
+      1	at 
+      2	att
+      1	au 
+      4	aub
+      1	auc
+      1	auf
+      3	aus
+      1	aut
+      1	b e
+      1	ben
+      1	bes
+      1	bla
+      1	ble
+      1	bra
+      1	bro
+      1	bt 
+     14	ch 
+      5	che
+      1	chl
+      1	chn
+      1	cho
+      1	chr
+      1	chs
+      7	cht
+      1	chu
+      2	chw
+      1	cke
+      1	ckt
+      2	d ,
+      1	d .
+      1	d a
+      1	d d
+      1	d h
+      1	d k
+      1	d s
+      2	d w
+      1	d z
+      1	da 
+      1	dac
+      4	das
+      1	dau
+      2	de 
+      1	dec
+      1	dei
+      2	del
+      1	dem
+     10	den
+      6	der
+      1	dhe
+      7	die
+      1	dor
+      2	dur
+      1	dör
+      1	e ,
+      6	e .
+      1	e :
+      1	e ;
+      1	e a
+      1	e b
+      4	e d
+      7	e e
+      5	e f
+      1	e g
+      2	e h
+      3	e k
+      1	e l
+      4	e s
+      1	e t
+      3	e v
+      7	e w
+      2	e z
+      2	ebe
+      1	ebt
+      2	ech
+      1	eer
+      5	ef 
+      1	efe
+      2	ehe
+      1	eht
+      2	eid
+      1	eim
+      7	ein
+      1	eis
+      1	eiß
+      1	ekr
+      3	el 
+      2	ell
+      1	eln
+      4	em 
+      1	emd
+     18	en 
+      2	end
+      1	enn
+     21	er 
+      2	erb
+      1	ere
+      1	erf
+      1	erg
+      2	ern
+      1	err
+      3	ers
+      2	ert
+      3	es 
+      1	esc
+      1	ese
+      2	est
+      1	etz
+      1	ewe
+      1	ewi
+      1	f ,
+      1	f .
+      1	f a
+      3	f d
+      2	f e
+      1	f f
+      1	fah
+      1	fel
+      1	ff 
+      1	fie
+      1	fin
+      1	fli
+      3	fra
+      1	g ,
+      1	g ;
+      2	g a
+      1	g d
+      1	g e
+      1	g i
+      1	gab
+      1	gan
+      1	gau
+      1	geb
+      2	geg
+      5	gen
+      4	ger
+      2	gew
+      1	gin
+      5	gte
+      1	gut
+      1	h :
+      1	h h
+      1	h i
+      1	h n
+      1	h w
+      1	hal
+      1	har
+      2	hat
+      1	hel
+      1	hen
+      1	her
+      1	him
+      1	hit
+      1	hla
+      1	hle
+      1	hli
+      1	hlu
+      2	hm 
+      1	hne
+      1	hni
+      1	hob
+      1	hol
+      2	hr 
+      1	hre
+      1	hri
+      4	ht 
+      3	hte
+      3	hun
+      2	hwe
+      1	häu
+      1	i s
+      1	ibe
+      5	ich
+      2	ide
+     10	ie 
+      3	ieb
+      1	ied
+      2	ief
+      2	iel
+      1	ies
+      1	iff
+      1	ihm
+      1	imm
+      8	in 
+      4	ind
+      5	ine
+      1	ing
+      1	inn
+      1	ins
+      1	isc
+      1	ise
+      3	iss
+      1	ist
+      1	it 
+      2	itz
+      1	iß 
+      1	kam
+      2	kei
+      1	ken
+      2	ker
+      2	kin
+      1	kon
+      1	kt 
+      1	l ,
+      2	l .
+      1	l ?
+      1	lac
+      1	lag
+      1	lan
+      1	ldf
+      1	lei
+      1	len
+      2	ler
+      1	lle
+      2	llt
+      1	lnd
+      4	lte
+      1	lze
+      1	läc
+      1	m .
+      1	m a
+      1	m h
+      1	m s
+      1	m w
+      1	mac
+      2	man
+      1	me 
+      1	meh
+      1	mel
+      2	men
+      1	mic
+      2	mme
+      1	n "
+      3	n ,
+      6	n .
+      3	n ;
+      1	n a
+      3	n b
+      3	n d
+      3	n e
+      2	n f
+      1	n g
+      2	n h
+      2	n i
+      1	n l
+      1	n n
+      1	n o
+      1	n r
+      4	n s
+      1	n t
+      6	n w
+      2	n z
+      1	nal
+      1	nba
+      1	nbo
+      5	nd 
+      2	nde
+      1	ndr
+      3	ne 
+      2	nel
+      4	nen
+      1	nes
+      1	nfi
+      4	ng 
+      1	nge
+      3	nic
+      2	nig
+      1	nis
+      1	nit
+      1	nk 
+      6	nn 
+      2	nne
+      1	nns
+      2	nnt
+      1	ns 
+      3	nst
+      3	nte
+      1	nüb
+      1	o s
+      2	och
+      1	ofe
+      1	ol 
+      1	onn
+      1	opf
+      2	orf
+      5	ot 
+      1	pen
+      1	pla
+      4	r .
+      2	r ;
+      2	r a
+      3	r d
+      4	r e
+      1	r f
+      4	r h
+      1	r k
+      2	r l
+     12	r m
+      1	r n
+      1	r o
+      1	r p
+      3	r s
+      1	r t
+      3	r w
+      2	rag
+      1	ran
+      1	rat
+      6	rau
+      1	rch
+      1	rd 
+      1	re 
+      1	reg
+      1	reh
+      2	ren
+      2	res
+      1	reu
+      1	rie
+      4	rn 
+      1	rnd
+      3	rot
+      1	rsu
+      3	rt 
+      2	rte
+      2	run
+      1	rus
+      1	rüc
+      1	s .
+      1	s ;
+      4	s b
+      5	s d
+      1	s e
+      1	s g
+      1	s h
+      3	s k
+      1	s n
+      2	s s
+      1	s t
+      1	s w
+      1	s ä
+      1	sag
+      1	sam
+      1	san
+      3	sch
+      1	se 
+      1	sel
+      4	sen
+      1	ser
+      4	sie
+      1	so 
+      1	son
+      2	ss 
+      1	ssa
+      1	sta
+      3	ste
+      1	stö
+      1	stü
+      2	t .
+      2	t ;
+      1	t d
+      1	t f
+      1	t g
+      1	t l
+      1	t w
+      1	tan
+     17	te 
+      1	tei
+      4	ten
+      2	ter
+      1	tie
+      2	til
+      1	tis
+      1	tot
+      1	tro
+      1	ts 
+      1	tt 
+      5	tte
+      1	tun
+      1	twa
+      1	tz 
+      1	tze
+      1	tzt
+      1	u .
+      1	u a
+      1	u n
+      1	ube
+      1	ubr
+      7	uch
+      1	uf 
+      1	ufh
+      1	uft
+      1	ufw
+      1	ug 
+      1	uge
+      1	ugt
+      2	ume
+      1	unb
+      5	und
+      1	unt
+      3	ur 
+      1	urs
+      1	usa
+      1	uss
+      1	ust
+      1	utw
+      2	ver
+      2	vor
+      1	vög
+      3	wal
+      2	war
+      1	was
+      1	weg
+      1	wer
+      1	woh
+      1	wol
+      1	wus
+      1	z k
+      1	ze 
+      1	zei
+      1	zer
+      3	zu 
+      1	zwe
+      1	z­o
+      1	ßso
+      1	änd
+      1	äte
+      1	öge
+      1	öpf
+      1	übe
+      1	ück
+      1	ühn
+      1	ür 
