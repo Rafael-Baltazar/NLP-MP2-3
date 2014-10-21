@@ -1,5 +1,5 @@
 ## Command to use this script on:
-## sed -nf bigramcount.sed fileNOR.txt | sort | uniq -c | sort -r | sed -r 's/([0-9]+)(.*)/\2 \1/g' | sed -r 's/[ ]*[	]//g' | sed -r 's/(.*) (.*)/\1\t\2/g' > file.bigrama
+## sed -nf bigramcount.sed fileNOR.txt | sort | uniq -c | sort -nr | sed -r 's/[ 	]*([0-9]+) (.*)/\2 \1/g' > file.bigrama
 
 ## Label 'b'.
 :b

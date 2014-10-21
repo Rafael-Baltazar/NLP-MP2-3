@@ -1,5 +1,5 @@
 ## Command to use this script on:
-## sed -nf trigramcount.sed fileNOR.txt | sort | uniq -c | sort -r | sed -r 's/([0-9]+)(.*)/\2 \1/g' | sed -r 's/[ ]*[	]//g' | sed -r 's/(.*) (.*)/\1\t\2/g' > file.trigrama
+## sed -nf trigramcount.sed fileNOR.txt | sort | uniq -c | sort -nr | sed -r 's/[ 	]*([0-9]+) (.*)/\2 \1/g' > file.trigrama
 
 ## Label 'b'.
 :b
