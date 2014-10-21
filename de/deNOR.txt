@@ -1,99 +1,99 @@
-<der mann hatte einen bart und war schon etwas älter ; zu alt fast für die frau .>
-<und dann war auch noch das kind da , ein ganz kleines .>
-<das schrie dauernd , denn es hatte hunger .>
-<auch die frau hatte hunger .>
-<aber sie war still , und wenn der mann zu ihr hinsah , dann lächelte sie ; oder sie versuchte es doch wenigstens .>
-<der mann hatte auch hunger .>
-<sie wussten nicht , wohin sie wollten ; sie wussten nur , sie konnten in ihrer heimat nicht bleiben , sie war zerstört .>
-<sie liefen durch wald , durch kiefern .>
-<in denen knisterte es .>
-<sonst war es still .>
-<beeren oder pilze gab es nicht ; die hatte die sonne verbrannt .>
-<über den schneisen flackerte hitze .>
-<das bisschen wind wehte nur oben .>
-<es war für den bussard gut ; reh und hase lagen hechelnd im farn .>
-< " kannst du noch ? " fragte der mann .>
-<die frau blieb stehen . >
-< " nein " , sagte sie .>
-<sie setzten sich .>
-<die kiefern waren mit langsam wandernden raupen bedeckt .>
-<blieb der wind weg , hörte man sie die nadeln raspeln .>
-<das knisterte so ; und es rieselte auch : nadelstücke und kot , wie regen .>
-< " nonnen " , sagte der mann ; " sie fressen den wald auf . " " wo sind die vögel ? " fragte die frau .>
-< " ich weiß nicht " , sagte der mann ; " ich glaube , es gibt keine vögel mehr . ">
-<die frau legte das kind an die brust .>
-<doch die brust war leer .>
-<da schrie das kind wieder .>
-<der mann schluckte .>
-<als das kind anfing , heiser zu werden , stand er auf .>
-<er sagte : " es geht so nicht länger . ">
-< " nein " , sagte die frau .>
-<sie versuchte zu lächeln , es gelang ihr nicht .>
-< " ich hol was zu essen " , sagte der mann .>
-< " woher " , fragte sie .>
-< " lass mich nur machen " , sagte er .>
-<dann ging er .>
-<er ging durch den sterbenden wald .>
-<er schnitt zeichen ein in die bäume .>
-<er kam an eine sandrinne .>
-<die war ein bach gewesen .>
-<er lief über einen schwarz staubenden platz .>
-<der war eine wiese gewesen .>
-<er lief zwei stunden .>
-<dann fing die sandheide an .>
-<auf einem stein lag eine kreuz - otter ; sie war verdorrt .>
-<das heidekraut staubte .>
-<später kam er an einen unbestellten acker .>
-<darauf auch in ein dorf ; das war tot .>
-<der mann setzte sich auf eine wagendeichsel .>
-<er schlief ein .>
-<im schlaf fiel er herunter .>
-<als er aufwachte , hatte er durst ; sein gaumen brannte .>
-<er stand auf , er taumelte in ein haus .>
-<in dem haus war es kahl .>
-<die schublade war aus dem tisch gerissen und lag auf der erde .>
-<die töpfe waren zerschlagen ; auch die fenster .>
-<auf der ofenbank lag ein tuch .>
-<in das tuch war ein halbes brot eingebunden ; es war hart .>
-<der mann nahm es und ging .>
-<in den andern häusern fand er nichts ; auch kein wasser .>
-<in den brunnen lag aas .>
-<von dem brot wagte er nichts abzubrechen .>
-<er wollte es der frau aufheben .>
-<feldfrüchte fand er nicht .>
-<auch tiere gab es nicht mehr ; nur tote : katzen , einige hühner .>
-<sie westen .>
-<ein gewitter hing in der luft .>
-<auf dem feld zertrat der mann eine eidechse .>
-<sie zerfiel in staub .>
-<es donnerte .>
-<vor dem wald standen glutwände .>
-<er ging vornübergebeugt .>
-<das brot trug er unter dem arm .>
-<schweiß troff ihm in den bart .>
-<seine fußsohlen brannten .>
-<er lief schneller .>
-<er kniff die augen zusammen .>
-<er sah in den himmel .>
-<der himmel war schweflig ; es blitzte .>
-<nachtwolken kamen .>
-<die sonne verschwand .>
-<der mann lief schneller . >
-<er hatte das brot in den hemdausschnitt geschoben , er presste die ellenbogen dagegen .>
-<wind kam .>
-<tropfen fielen .>
-<sie knallten wie erbsen auf den dörrenden boden .>
-<der mann rannte .>
-<das brot , dachte er , das brot .>
-<aber der regen war schneller .>
-<weit vor dem wald noch holte er den mann ein .>
-<blitze zerrissen den himmel .>
-<es goss .>
-<der mann drückte die arme gegen das brot .>
-<es klebte .>
-<der mann fluchte .>
-<doch der regen nahm zu .>
-<der wald vorn und das dorf hinten waren wie weggewischt .>
-<dunstfahnen flappten über die heide .>
-<in den sand gruben sich bäche .>
-<der mann blieb stehen ; er keuchte .>
+<<der mann hatte einen bart und war schon etwas älter ; zu alt fast für die frau .>
+<<und dann war auch noch das kind da , ein ganz kleines .>
+<<das schrie dauernd , denn es hatte hunger .>
+<<auch die frau hatte hunger .>
+<<aber sie war still , und wenn der mann zu ihr hinsah , dann lächelte sie ; oder sie versuchte es doch wenigstens .>
+<<der mann hatte auch hunger .>
+<<sie wussten nicht , wohin sie wollten ; sie wussten nur , sie konnten in ihrer heimat nicht bleiben , sie war zerstört .>
+<<sie liefen durch wald , durch kiefern .>
+<<in denen knisterte es .>
+<<sonst war es still .>
+<<beeren oder pilze gab es nicht ; die hatte die sonne verbrannt .>
+<<über den schneisen flackerte hitze .>
+<<das bisschen wind wehte nur oben .>
+<<es war für den bussard gut ; reh und hase lagen hechelnd im farn .>
+<< " kannst du noch? " fragte der mann .>
+<<die frau blieb stehen .>
+<< " nein " , sagte sie .>
+<<sie setzten sich .>
+<<die kiefern waren mit langsam wandernden raupen bedeckt .>
+<<blieb der wind weg , hörte man sie die nadeln raspeln .>
+<<das knisterte so ; und es rieselte auch : nadelstücke und kot , wie regen .>
+<< " nonnen " , sagte der mann ; " sie fressen den wald auf . " " wo sind die vögel? " fragte die frau .>
+<< " ich weiß nicht " , sagte der mann ; " ich glaube , es gibt keine vögel mehr . ">
+<<die frau legte das kind an die brust .>
+<<doch die brust war leer .>
+<<da schrie das kind wieder .>
+<<der mann schluckte .>
+<<als das kind anfing , heiser zu werden , stand er auf .>
+<<er sagte : " es geht so nicht länger . ">
+<< " nein " , sagte die frau .>
+<<sie versuchte zu lächeln , es gelang ihr nicht .>
+<< " ich hol was zu essen " , sagte der mann .>
+<< " woher " , fragte sie .>
+<< " lass mich nur machen " , sagte er .>
+<<dann ging er .>
+<<er ging durch den sterbenden wald .>
+<<er schnitt zeichen ein in die bäume .>
+<<er kam an eine sandrinne .>
+<<die war ein bach gewesen .>
+<<er lief über einen schwarz staubenden platz .>
+<<der war eine wiese gewesen .>
+<<er lief zwei stunden .>
+<<dann fing die sandheide an .>
+<<auf einem stein lag eine kreuz­otter ; sie war verdorrt .>
+<<das heidekraut staubte .>
+<<später kam er an einen unbestellten acker .>
+<<darauf auch in ein dorf ; das war tot .>
+<<der mann setzte sich auf eine wagendeichsel .>
+<<er schlief ein .>
+<<im schlaf fiel er herunter .>
+<<als er aufwachte , hatte er durst ; sein gaumen brannte .>
+<<er stand auf , er taumelte in ein haus .>
+<<in dem haus war es kahl .>
+<<die schublade war aus dem tisch gerissen und lag auf der erde .>
+<<die töpfe waren zerschlagen ; auch die fenster .>
+<<auf der ofenbank lag ein tuch .>
+<<in das tuch war ein halbes brot eingebunden ; es war hart .>
+<<der mann nahm es und ging .>
+<<in den andern häusern fand er nichts ; auch kein wasser .>
+<<in den brunnen lag aas .>
+<<von dem brot wagte er nichts abzubrechen .>
+<<er wollte es der frau aufheben .>
+<<feldfrüchte fand er nicht .>
+<<auch tiere gab es nicht mehr ; nur tote : katzen , einige hühner .>
+<<sie westen .>
+<<ein gewitter hing in der luft .>
+<<auf dem feld zertrat der mann eine eidechse .>
+<<sie zerfiel in staub .>
+<<es donnerte .>
+<<vor dem wald standen glutwände .>
+<<er ging vornübergebeugt .>
+<<das brot trug er unter dem arm .>
+<<schweiß troff ihm in den bart .>
+<<seine fußsohlen brannten .>
+<<er lief schneller .>
+<<er kniff die augen zusammen .>
+<<er sah in den himmel .>
+<<der himmel war schweflig ; es blitzte .>
+<<nachtwolken kamen .>
+<<die sonne verschwand .>
+<<der mann lief schneller .>
+<<er hatte das brot in den hemdausschnitt geschoben , er presste die ellenbogen dagegen .>
+<<wind kam .>
+<<tropfen fielen .>
+<<sie knallten wie erbsen auf den dörrenden boden .>
+<<der mann rannte .>
+<<das brot , dachte er , das brot .>
+<<aber der regen war schneller .>
+<<weit vor dem wald noch holte er den mann ein .>
+<<blitze zerrissen den himmel .>
+<<es goss .>
+<<der mann drückte die arme gegen das brot .>
+<<es klebte .>
+<<der mann fluchte .>
+<<doch der regen nahm zu .>
+<<der wald vorn und das dorf hinten waren wie weggewischt .>
+<<dunstfahnen flappten über die heide .>
+<<in den sand gruben sich bäche .>
+<<der mann blieb stehen ; er keuchte .>
