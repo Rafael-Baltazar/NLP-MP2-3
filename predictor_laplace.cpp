@@ -3,14 +3,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "ngrams.h"
-#include "locale.h"
 #include <cmath>
-
-#define UNICODE
-#define DEBUG 1
 
 using namespace std;
 
+// Quality of life function
+// No need to use strcmp(x,y) == 0 this way
 bool strequals(const char* s1, const char* s2) {
 	if(strcmp(s1,s2) == 0)
 		return true;
@@ -19,25 +17,28 @@ bool strequals(const char* s1, const char* s2) {
 
 bool load_ngram_count(const char* bigramfile, const char* trigramfile, Language* lang) {
 	FILE* bigramfp, *trigramfp;
-	char line[1000];
+	char line[100];
 	int bigram_line = 0;
 	int trigram_line = 0;
 	char* token = NULL;
 
-	//BIGRAMS
+	// BIGRAMS
 	bigramfp = fopen(bigramfile, "r");
 	if(bigramfp == 0) {
 		cerr << "Error opening file: " << bigramfile << endl;	
 		return false;
 	}
 
-	while(fgets(line, 1000, bigramfp)) {
+	// Read a line from the file
+	while(fgets(line, 100, bigramfp)) {
+		// Get the bigram sequence
 		token = strtok(line, "\t\n\r");
 
 		if(token == NULL) {
 			continue;
 		}
 		else {
+			// Get the number of occurrences and add the bigram to the language
 			lang->bigrams.insert(pair<char*,int>(token, atoi(strtok(NULL, "\t\n\r"))));
 		}
 		bigram_line++;
@@ -48,20 +49,23 @@ bool load_ngram_count(const char* bigramfile, const char* trigramfile, Language*
 
 	token = NULL;
 
-	//TRIGRAMS
+	// TRIGRAMS
 	trigramfp = fopen(trigramfile, "r");
 	if(trigramfp == 0) {
 		cerr << "Error opening file: " << trigramfile << endl;	
 		return false;
 	}
 
-	while(fgets(line, 1000, trigramfp)) {
+	// Read a line from the file
+	while(fgets(line, 100, trigramfp)) {
+		// Get the trigram sequence
 		token = strtok(line, "\t\n\r");
 
 		if(token == NULL) {
 			continue;
 		}
 		else {
+			// Get the number of occurrences and add the trigram to the language
 			lang->trigrams.insert(pair<char*,int>(token, atoi(strtok(NULL, "\t\n\r"))));
 		}
 		trigram_line++;
@@ -69,38 +73,32 @@ bool load_ngram_count(const char* bigramfile, const char* trigramfile, Language*
 	lang->numtrigrams = trigram_line;
 	cout << "Loaded file: " << trigramfile << endl;
 	fclose(trigramfp);
+	
 	return true;
-}
-
-void showtrigrams(const char* s) {
-	int i = 0;
-	char tri[3];	
-	while(s[i+2] != '\0') {
-		tri[0] = s[i];
-		tri[1] = s[i+1];
-		tri[2] = s[i+2];
-		cout << tri[0] << tri[1] << tri[2] << endl;
-		i++;
-	}
 }
 
 float calculate_probability(Language *lang, const char* s) {
 	int i = 0;
-	string tri = "";
-	string bi = "";
+	string trigram = "";
+	string bigram = "";
 	float result = 0;
-	while(s[i+2] != '\0') {
-		tri += s[i];
-		bi += s[i];
-		tri += s[i+1];
-		bi += s[i+1];
-		tri += s[i+2];
 
-		result += log((lang->trigrams[tri] + 1) / (lang->bigrams[bi] + lang->numbigrams));
+	// Cycle for getting each bigram and trigram of the given sentence
+	while(s[i+2] != '\0') {
+		trigram += s[i];
+		trigram += s[i+1];		
+		trigram += s[i+2];
+		bigram += s[i];
+		bigram += s[i+1];
+		
+		// Search for the trigram and bigram in the language given
+		// and get the number of times it occurred to compute the probability
+		// using the Add-One (Laplace) smoothing technique
+		result += log((lang->trigrams[trigram] + 1) / (lang->bigrams[bigram] + lang->numbigrams + 1));
 
 		i++;
-		bi = "";
-		tri = "";	
+		bigram = "";
+		trigram = "";	
 	}
 
 	return result;
@@ -112,7 +110,7 @@ int main(int argc, char** argv) {
 
 	Language langs[5];
 
-	//load corpi
+	// Load all the corpora into the program
 	load_ngram_count("pt/pt.bigrama", "pt/pt.trigrama", &langs[0]);
 	cout << "Bigrams found: " << langs[0].numbigrams << endl;
 	cout << "Trigrams found: " << langs[0].numtrigrams << endl;
@@ -129,45 +127,51 @@ int main(int argc, char** argv) {
 	cout << "Bigrams found: " << langs[4].numbigrams << endl;
 	cout << "Trigrams found: " << langs[4].numtrigrams << endl;
 
-	//ask for a sentence
+	// Ask for a sentence
 	string sentence;
 	cout << endl << "Write a sentence to predict the language: " << endl;
 	getline(cin, sentence);
+	// Normalize the sentence (we expect punctuation to be correctly separated already)
 	sentence = "<<" + sentence + ">";	
 
-	//calculate probabilities
+	// Calculate the probability for each language
 	float pt = calculate_probability(&langs[0], sentence.c_str());
 	float en = calculate_probability(&langs[1], sentence.c_str());
 	float de = calculate_probability(&langs[2], sentence.c_str());
 	float fr = calculate_probability(&langs[3], sentence.c_str());
 	float it = calculate_probability(&langs[4], sentence.c_str());
+		
+	// Show the calculated value for each probability	
+	cout << endl << "Log-Probability (with Add-One technique) for sentence: " << endl;
+	cout << sentence << endl;
+	cout << "(PT): " << pt << endl;	
+	cout << "(EN): " << en << endl;
+	cout << "(DE): " << de << endl;
+	cout << "(FR): " << fr << endl;
+	cout << "(IT): " << it << endl;
 
-	if(DEBUG) {		
-		cout << "Probability (PT): " << pt << endl;	
-		cout << "Probability (EN): " << en << endl;
-		cout << "Probability (DE): " << de << endl;
-		cout << "Probability (FR): " << fr << endl;
-		cout << "Probability (IT): " << it << endl;
-	}
-
-	//output the prediction
+	// Output the prediction
 	float prediction = max(pt,max(en,max(de,max(fr,it))));
 	cout << "Prediction: "; 
 	if(prediction == pt) {
-		cout << "Portuguese" << endl;	
+		cout << "Portuguese (PT)" << endl;	
 	}
 	else if(prediction == en) {
-		cout << "English" << endl;	
+		cout << "English (EN)" << endl;	
 	}
 	else if(prediction == de) {
-		cout << "German" << endl;	
+		cout << "German (DE)" << endl;	
 	}
 	else if(prediction == fr) {
-		cout << "French" << endl;	
+		cout << "French (FR)" << endl;	
+	}
+	else if(prediction == it) {
+		cout << "Italian (IT)" << endl;	
 	}
 	else {
-		cout << "Italian" << endl;	
+		cout << "Could not predict language: log(0) = -inf" << endl;
 	}
+	cout << endl;
 
 	return 0;
 }

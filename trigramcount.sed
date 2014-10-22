@@ -1,3 +1,9 @@
+#---------------------------------#
+#             Grupo 3             #
+#    Marcos Germano,  nº 69721    #
+#    Rafael Baltazar, nº 70116    #
+#---------------------------------#
+
 ## Command to use this script on:
 ## sed -nf trigramcount.sed fileNOR.txt | sort | uniq -c | sort -nr | sed -r 's/[ 	]*([0-9]+) (.*)/\2 \1/g' > file.trigrama
 
@@ -7,14 +13,15 @@
 ## Copy line to 'hold space'.
 h
 
-## Get first bigram.
+## Get the first bigram.
 s/\(...\).*/\1/
 
-## If last substitution succeed, continue to label 'a'.
+## If the last substitution succeeded, continue to label 'a'.
 ta
 
-## Here last substitution failed: It means that line has less than four
-## characters to extract a bigram, so read next line.
+## Here the last substitution failed. 
+## It means that the line has less than four
+## characters to extract a bigram, so read the next line.
 b
 
 ## Label 'a'
@@ -26,7 +33,7 @@ p
 ## Copy 'hold space' into 'pattern space'.
 g
 
-## Delete first character.
+## Delete first character, because it is not going to be read in the next loop.
 s/^.//
 
 ## Goto label 'b' to repeat loop.
