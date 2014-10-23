@@ -3,5 +3,11 @@
 #    Marcos Germano,  nº 69721    #
 #    Rafael Baltazar, nº 70116    #
 #---------------------------------#
-#Testes para selecionar lingua e selecionar lingua com alisamento
 
+#Frases utilizadas nos testes
+
+Frase 1 (Inglês) - "the score for yesterday's soccer match was 2-1 , in favor of liverpool's team ."
+
+Frase 2 (Alemão) - "ich möchte dich zum abendessen einladen ."
+
+Frase 3 (Português) - "ontem , o tribunal decidiu culpá-lo por ter assassinado toda a sua família ."

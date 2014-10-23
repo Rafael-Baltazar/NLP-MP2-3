@@ -4,3 +4,7 @@
 #    Rafael Baltazar, nº 70116    #
 #---------------------------------#
 
+Este tipo de sistemas podem ser úteis para diversas áreas como, por exemplo: identificação das línguas para correcção ortográfica, tradução automática de textos, etc.
+No entanto, estes sistemas têm as suas desvantagens, pois necessitam de um corpus muito grande, na ordem de mil ou mais vezes maior do que os corpora usados no nosso projecto, de forma a predizer, com sucesso, a língua da maior parte das frases.
+Assim, como os corpora têm que ser grandes, o tempo de processamento passa cada vez a ser maior, tendo que se arranjar maneiras mais eficientes de realizar as mesmas tarefas ou, pelo menos, arranjar um meio termo entre o tamanho dos corpora e a percentagem de sucesso na identificação das línguas (isto porque, a partir de certo ponto, um aumento no tamanho de um corpus vai afectando cada vez menos o aumento no sucesso da identificação). 
+De certo modo, também é impossível na prática ter um sistema que alcance os 100%, em termos de fiabilidade e precisão, nos cálculos efectuados para identificar as línguas dos textos.

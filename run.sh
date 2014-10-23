@@ -28,20 +28,23 @@ g++ -o predictor predictor.cpp;
 g++ -o predictor_laplace predictor_laplace.cpp;
 
 ## TEST (with and without smoothing)
-echo "TESTE 1 c/ alisamento"; 
-echo "the score for yesterday's soccer match was 2-1 , in favor of liverpool's team ." | ./predictor_laplace;
+rm Resultado.txt;
+touch Resultado.txt;
 
-echo "TESTE 2 c/ alisamento";
-echo "ich möchte dich zum abendessen einladen ." | ./predictor_laplace;
+echo "TESTE 1 c/ alisamento" >> Resultado.txt;
+echo "the score for yesterday's soccer match was 2-1 , in favor of liverpool's team ." | ./predictor_laplace >> Resultado.txt;
 
-echo "TESTE 3 c/ alisamento";
-echo "ontem , o tribunal decidiu culpá-lo por ter assassinado toda a sua família ." | ./predictor_laplace;
+echo "TESTE 2 c/ alisamento" >> Resultado.txt;
+echo "ich möchte dich zum abendessen einladen ." | ./predictor_laplace >> Resultado.txt;
 
-echo "TESTE 1";
-echo "the score for yesterday's soccer match was 2-1 , in favor of liverpool's team." | ./predictor;
+echo "TESTE 3 c/ alisamento" >> Resultado.txt;
+echo "ontem , o tribunal decidiu culpá-lo por ter assassinado toda a sua família ." | ./predictor_laplace >> Resultado.txt;
 
-echo "TESTE 2";
-echo "ich möchte dich zum abendessen einladen ." | ./predictor;
+echo "TESTE 1" >> Resultado.txt;
+echo "the score for yesterday's soccer match was 2-1 , in favor of liverpool's team." | ./predictor >> Resultado.txt;
 
-echo "TESTE 3";
-echo "ontem , o tribunal decidiu culpá-lo por ter assassinado toda a sua família ." | ./predictor;
+echo "TESTE 2" >> Resultado.txt;
+echo "ich möchte dich zum abendessen einladen ." | ./predictor >> Resultado.txt;
+
+echo "TESTE 3" >> Resultado.txt;
+echo "ontem , o tribunal decidiu culpá-lo por ter assassinado toda a sua família ." | ./predictor >> Resultado.txt;

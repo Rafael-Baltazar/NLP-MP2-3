@@ -4,3 +4,8 @@
 #    Rafael Baltazar, nº 70116    #
 #---------------------------------#
 
+Para a fase de normalização de cada corpus deste projecto, decidimos usar u comando "sed" para efectuar todas as alterações desejadas, como a separação da pontuação e a inserção de símbolos de início e fim de frase.
+Usámos ainda o "sed" para fazer as contagens de todos os bigramas e trigramas de cada corpus normalizado, colocando também o ficheiro no formato desejado.
+De seguida, optámos por usar a linguagem de programação C++ para desenvolver o código que cálcula as probabilidades das frases para cada língua e, por fim, compara essas mesmas probabilidades, para chegar a uma decisão.
+Como o enunciado especifica que são necessários dois programas diferentes, um que use o método de alisamento Add-One e outro que não use, decidimos copiar o código todo do programa que não faz o alisamento e altera simplesmente o cálculo da probabilidade, somando mais 1 ao numerador e somando V (nºbigramas + 1) ao denominador.
+Por fim, aquando da realização dos testes, em que nos era especificado que devemos comentar os resultados obtidos, decidimos escrever estes mesmos comentários num ficheiro aparte, com o nome "comentarios.txt", enquanto que os resultados em si estão presentes no ficheiro "Resultado.txt", após a execução do script que normaliza os corpus, que conta bigramas e trigramas e que, no fim, realiza os testes.

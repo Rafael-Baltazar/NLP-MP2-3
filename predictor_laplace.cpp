@@ -105,9 +105,6 @@ float calculate_probability(Language *lang, const char* s) {
 }
 
 int main(int argc, char** argv) {
-	char *locale;
-	locale = setlocale(LC_ALL, "");	
-
 	Language langs[5];
 
 	// Load all the corpora into the program
@@ -142,7 +139,7 @@ int main(int argc, char** argv) {
 	float it = calculate_probability(&langs[4], sentence.c_str());
 		
 	// Show the calculated value for each probability	
-	cout << endl << "Log-Probability (with Add-One technique) for sentence: " << endl;
+	cout << endl << "Log-Probability (with Add-One smoothing) for sentence: " << endl;
 	cout << sentence << endl;
 	cout << "(PT): " << pt << endl;	
 	cout << "(EN): " << en << endl;

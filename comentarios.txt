@@ -1,0 +1,11 @@
+#---------------------------------#
+#             Grupo 3             #
+#    Marcos Germano,  nº 69721    #
+#    Rafael Baltazar, nº 70116    #
+#---------------------------------#
+
+Os resultados obtidos nos testes com as três frases correspondem ao que era previsto, mas, no caso de se usarem frases mais pequenas ou com palavras "adoptadas" de outras línguas, a identificação das línguas feita pelo programa pode estar errada, por várias razões, sendo uma delas o tamanho diminuido de certos corpora. Quanto mais pequenos forem, piores serão as tentativas de identificação, porque as contagens de bigramas e trigramas serão mais baixas.
+Além do ponto acima referido, existe também o problema de diversas línguas terem a mesma origem (no caso do Inglês e do Alemão, que são línguas germânicas e, no caso do Português, do Francês e do Italiano, que são línguas de origem latina), o que faz com que certas sequências de letras sejam frequentes em línguas da mesma origem, criando falsos positivos de identificação de sequências de certas letras com a língua errada.
+Da mesma maneira, é possível verificar que, o programa que faz o cálculo da probabilidade sem a técnica de alisamento Add-One, não consegue tentar identificar a língua usada para cada frase na maior parte das vezes. Isto acontece porque, como os corpora de treino são pequenos, basta existir uma sequência de letras/símbolos na frase (ou seja, um bigrama/trigrama) que não esteja no corpus, para que o resultado do cálculo seja: log(0) = -inf; e, desta forma, não se consegue identificar a língua.
+Por outro lado, o facto de usar o método Add-One para fazer alisamento também tem as suas desvantagens, pois está a roubar mais contagens aos bigramas/trigramas que ocorrem mais vezes no corpus, para aumentar as contagens de todos os bigramas/trigramas que nunca aparecem.
+Finalmente, existe ainda um outro problema, que está relacionado com o facto de que estamos a calcular probabilidades para sequências de letras e não para sequências de palavras. Embora existam palavras que se escrevam da mesma maneira em mais do que uma língua, neste caso é muito pior, porque a mesma sequência de letras pode estar presente em muitas línguas.

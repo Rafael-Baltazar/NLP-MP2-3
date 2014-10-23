@@ -10,9 +10,7 @@ using namespace std;
 // Quality of life function
 // No need to use strcmp(x,y) == 0 this way
 bool strequals(const char* s1, const char* s2) {
-	if(strcmp(s1,s2) == 0)
-		return true;
-	return false;
+	return (strcmp(s1,s2) == 0);
 }
 
 bool load_ngram_count(const char* bigramfile, const char* trigramfile, Language* lang) {
@@ -104,9 +102,6 @@ float calculate_probability(Language *lang, const char* s) {
 }
 
 int main(int argc, char** argv) {
-	char *locale;
-	locale = setlocale(LC_ALL, "");	
-
 	Language langs[5];
 
 	// Load all the corpora into the program

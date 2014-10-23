@@ -1,0 +1,198 @@
+TESTE 1 c/ alisamento
+Loaded file: pt/pt.bigrama
+Loaded file: pt/pt.trigrama
+Bigrams found: 608
+Trigrams found: 2615
+Loaded file: en/en.bigrama
+Loaded file: en/en.trigrama
+Bigrams found: 471
+Trigrams found: 2297
+Loaded file: de/de.bigrama
+Loaded file: de/de.trigrama
+Bigrams found: 316
+Trigrams found: 1060
+Loaded file: fr/fr.bigrama
+Loaded file: fr/fr.trigrama
+Bigrams found: 423
+Trigrams found: 1735
+Loaded file: it/it.bigrama
+Loaded file: it/it.trigrama
+Bigrams found: 439
+Trigrams found: 2339
+
+Write a sentence to predict the language: 
+
+Log-Probability (with Add-One smoothing) for sentence: 
+<<the score for yesterday's soccer match was 2-1 , in favor of liverpool's team .>
+(PT): -406.389
+(EN): -353.546
+(DE): -394.071
+(FR): -413.545
+(IT): -389.483
+Prediction: English (EN)
+
+TESTE 2 c/ alisamento
+Loaded file: pt/pt.bigrama
+Loaded file: pt/pt.trigrama
+Bigrams found: 608
+Trigrams found: 2615
+Loaded file: en/en.bigrama
+Loaded file: en/en.trigrama
+Bigrams found: 471
+Trigrams found: 2297
+Loaded file: de/de.bigrama
+Loaded file: de/de.trigrama
+Bigrams found: 316
+Trigrams found: 1060
+Loaded file: fr/fr.bigrama
+Loaded file: fr/fr.trigrama
+Bigrams found: 423
+Trigrams found: 1735
+Loaded file: it/it.bigrama
+Loaded file: it/it.trigrama
+Bigrams found: 439
+Trigrams found: 2339
+
+Write a sentence to predict the language: 
+
+Log-Probability (with Add-One smoothing) for sentence: 
+<<ich möchte dich zum abendessen einladen .>
+(PT): -220.773
+(EN): -208.018
+(DE): -176.605
+(FR): -224.728
+(IT): -212.65
+Prediction: German (DE)
+
+TESTE 3 c/ alisamento
+Loaded file: pt/pt.bigrama
+Loaded file: pt/pt.trigrama
+Bigrams found: 608
+Trigrams found: 2615
+Loaded file: en/en.bigrama
+Loaded file: en/en.trigrama
+Bigrams found: 471
+Trigrams found: 2297
+Loaded file: de/de.bigrama
+Loaded file: de/de.trigrama
+Bigrams found: 316
+Trigrams found: 1060
+Loaded file: fr/fr.bigrama
+Loaded file: fr/fr.trigrama
+Bigrams found: 423
+Trigrams found: 1735
+Loaded file: it/it.bigrama
+Loaded file: it/it.trigrama
+Bigrams found: 439
+Trigrams found: 2339
+
+Write a sentence to predict the language: 
+
+Log-Probability (with Add-One smoothing) for sentence: 
+<<ontem , o tribunal decidiu culpá-lo por ter assassinado toda a sua família .>
+(PT): -333.116
+(EN): -373.555
+(DE): -419.584
+(FR): -406.531
+(IT): -342.491
+Prediction: Portuguese (PT)
+
+TESTE 1
+Loaded file: pt/pt.bigrama
+Loaded file: pt/pt.trigrama
+Bigrams found: 608
+Trigrams found: 2615
+Loaded file: en/en.bigrama
+Loaded file: en/en.trigrama
+Bigrams found: 471
+Trigrams found: 2297
+Loaded file: de/de.bigrama
+Loaded file: de/de.trigrama
+Bigrams found: 316
+Trigrams found: 1060
+Loaded file: fr/fr.bigrama
+Loaded file: fr/fr.trigrama
+Bigrams found: 423
+Trigrams found: 1735
+Loaded file: it/it.bigrama
+Loaded file: it/it.trigrama
+Bigrams found: 439
+Trigrams found: 2339
+
+Write a sentence to predict the language: 
+
+Log-Probability for sentence: 
+<<the score for yesterday's soccer match was 2-1 , in favor of liverpool's team.>
+(PT): -nan
+(EN): -nan
+(DE): -nan
+(FR): -nan
+(IT): -nan
+Prediction: Could not predict language: log(0) = -inf
+
+TESTE 2
+Loaded file: pt/pt.bigrama
+Loaded file: pt/pt.trigrama
+Bigrams found: 608
+Trigrams found: 2615
+Loaded file: en/en.bigrama
+Loaded file: en/en.trigrama
+Bigrams found: 471
+Trigrams found: 2297
+Loaded file: de/de.bigrama
+Loaded file: de/de.trigrama
+Bigrams found: 316
+Trigrams found: 1060
+Loaded file: fr/fr.bigrama
+Loaded file: fr/fr.trigrama
+Bigrams found: 423
+Trigrams found: 1735
+Loaded file: it/it.bigrama
+Loaded file: it/it.trigrama
+Bigrams found: 439
+Trigrams found: 2339
+
+Write a sentence to predict the language: 
+
+Log-Probability for sentence: 
+<<ich möchte dich zum abendessen einladen .>
+(PT): -nan
+(EN): -nan
+(DE): -nan
+(FR): -nan
+(IT): -nan
+Prediction: Could not predict language: log(0) = -inf
+
+TESTE 3
+Loaded file: pt/pt.bigrama
+Loaded file: pt/pt.trigrama
+Bigrams found: 608
+Trigrams found: 2615
+Loaded file: en/en.bigrama
+Loaded file: en/en.trigrama
+Bigrams found: 471
+Trigrams found: 2297
+Loaded file: de/de.bigrama
+Loaded file: de/de.trigrama
+Bigrams found: 316
+Trigrams found: 1060
+Loaded file: fr/fr.bigrama
+Loaded file: fr/fr.trigrama
+Bigrams found: 423
+Trigrams found: 1735
+Loaded file: it/it.bigrama
+Loaded file: it/it.trigrama
+Bigrams found: 439
+Trigrams found: 2339
+
+Write a sentence to predict the language: 
+
+Log-Probability for sentence: 
+<<ontem , o tribunal decidiu culpá-lo por ter assassinado toda a sua família .>
+(PT): -nan
+(EN): -nan
+(DE): -nan
+(FR): -nan
+(IT): -nan
+Prediction: Could not predict language: log(0) = -inf
+
