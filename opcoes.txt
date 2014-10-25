@@ -6,6 +6,7 @@
 
 Para a fase de normalização de cada corpus deste projecto, decidimos usar u comando "sed" para efectuar todas as alterações desejadas, como a separação da pontuação e a inserção de símbolos de início e fim de frase.
 Usámos ainda o "sed" para fazer as contagens de todos os bigramas e trigramas de cada corpus normalizado, colocando também o ficheiro no formato desejado.
+No Windows, a normalização dos ficheiros é mal sucedida caso os ficheiros ou a consola não estejam a usar UTF-8 e, além disto, a contagem dos bigramas e trigramas não funciona, pois os comandos "sort" e "uniq" não só não existem na consola básica do Windows, como também, mesmo que seja utilizado um ambiente virtual para simular uma consola de linux, não garantimos que os resultados das contagens sejam os iguais aos esperados, devido a problemas com "newlines" e "tabs" nos ficheiros.
 De seguida, optámos por usar a linguagem de programação C++ para desenvolver o código que cálcula as probabilidades das frases para cada língua e, por fim, compara essas mesmas probabilidades, para chegar a uma decisão.
 A frase que tem de ser introduzida pelo utilizador pressupõe-se que está normalizada, pois não decidimos fazer uma normalização à frase dentro do programa em C++.
 Como o enunciado especifica que são necessários dois programas diferentes, um que use o método de alisamento Add-One e outro que não use, decidimos copiar o código todo do programa que não faz o alisamento e altera simplesmente o cálculo da probabilidade, somando mais 1 ao numerador e somando V (nºbigramas + 1) ao denominador.
